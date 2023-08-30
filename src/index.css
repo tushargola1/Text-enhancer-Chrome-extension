@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=Arimo:ital,wght@1,500&family=Lumanosimo&family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed&family=Roboto:wght@300&family=Zilla+Slab:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  
+background-color:white;
+  
+}
+
+.container-fluid{
+  width: 350px;
+  height: 590px;
+  background-color: rgba(255, 60, 0, 0.781);
+
+}
+.navbar-brand{
+  display: flex;
+  justify-content: center;
+}
+
+#logo_image{
+  margin: 12px 0;
+
+}
+
+.text{
+
+  padding: 0 8px;
+}
+
+.text p{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+#select1 , #select2{
+  cursor: pointer;
+  position: absolute;
+ margin: -12px 0;
+ border-radius: 10px;
+ outline: 0;
+ border: 0;
+ height: 35px;
+font-weight: bold;
+ 
+}
+
+#boxx{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+#input-box{
+  position: relative;
+  margin: 25px 0;
+  
+}
+
+#input-box::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c3bfc9fc;
+  border-radius: 30px;
+}
+
+
+#icons{
+  background-color: white;
+  position: relative;
+  margin: -38.78px 0;
+  border-top:0.1px solid rgb(104, 104, 104) ;
+}
+
+.wordss i{
+  font-size: 13px;
+font-weight:600;
+  padding-left:  10px;
+}
+.icons_speak{
+  display: flex;
+  align-items: center;
+  
+}
+.icons_speak i{
+  cursor: pointer;
+margin: 0 10px;
+}
+
+
+/* button */
+
+#Change-button{
+  position: relative;
+ width: fit-content;
+  background: white;
+margin: 40px 78.5px ;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
